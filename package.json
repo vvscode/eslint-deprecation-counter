@@ -1,0 +1,31 @@
+{
+  "name": "eslint-deprecation-counter",
+  "version": "0.0.7",
+  "type": "module",
+  "description": "A CLI tool to detect and count deprecated API usage in your TypeScript and JavaScript projects using ESLint",
+  "author": "Vasil Vanchuk <v.vanchuk@tut.by>",
+  "license": "ISC",
+  "keywords": ["eslint", "deprecation", "typescript", "cli", "lint"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vvscode/eslint-deprecation-counter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vvscode/eslint-deprecation-counter/issues"
+  },
+  "bin": {
+    "eslint-deprecation-counter": "./eslint-deprecation-counter.js"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "dependencies": {
+    "eslint": "^9.28.0",
+    "@eslint/js": "^9.28.0",
+    "@typescript-eslint/eslint-plugin": "^8.33.1",
+    "@typescript-eslint/parser": "^8.33.1",
+    "eslint-plugin-deprecate": "^0.8.5",
+    "typescript": "^5.8.3"
+  }
+}
