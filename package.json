@@ -1,6 +1,6 @@
 {
   "name": "eslint-deprecation-counter",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "type": "module",
   "description": "A CLI tool to detect and count deprecated API usage in your TypeScript and JavaScript projects using ESLint",
   "author": "Vasil Vanchuk <v.vanchuk@tut.by>",
